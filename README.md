@@ -1,7 +1,7 @@
 quakeIII-Parser-log
 =============================
 ##Sobre
-Aplicação que faz um parse do log de Quake Arena III usando Node.js e Angular.js
+Parser para log do Quake Arena III usando Node.js e Angular.js
 
 ##Notas do desenvolvedor
 O algoritmo desenvolvido é capaz de ler o log gerado por Quake Arena III, carregando informações como: 
@@ -10,10 +10,8 @@ O algoritmo desenvolvido é capaz de ler o log gerado por Quake Arena III, carre
 * pontuação dos jogadores por partida 
 * motivo das mortes
 
-##Parser
+##Exemplo
 O script public/js/parserLog.js transforma os dados do arquivo game.log que contém as informações da partida do jogo, e a saída é gerada no formato JSON
-###Exemplo
-
 ``` javascript
  "Game_2": {
         "hash": 1843596268,
